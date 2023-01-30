@@ -33,7 +33,7 @@ Points-based scoring allows you to assign a given point value to each individual
 ## Features
 Danny AInge will initially have its features implemented for Head-to-head: Each Category and Head-to-Head: Most Categories. 
 
-![screenshot2](assets/h2h_screenshot)
+![screenshot2](assets/h2h_screenshot.PNG)
 
 Machine learning algorithms will be used to predict the stats of your team's players, the opposing team's players, and the top 20 available player's statistics. 
 
