@@ -50,14 +50,14 @@ Machine learning algorithms will be used to predict the stats of your team's pla
 Suggestions for your roster will be made, including players to dropp and add, and which players to start on your roster.
 
 ## Stack
-- [Python]
-- [SQLite]
-- [Tensorflow]
-- [GraphQL]
-- [TypeScript]
-- [NextJS]
-- [TailwindCSS]
-- [DaisyUI]
+- Python
+- SQLite
+- Tensorflow
+- GraphQL
+- TypeScript
+- NextJS
+- TailwindCSS
+- DaisyUI
 
 ## Demo
 WIP 
