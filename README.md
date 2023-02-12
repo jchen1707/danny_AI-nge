@@ -5,8 +5,8 @@ Legendary NBA GM powered by machine learning! Predicts NBA stats and manages you
 Danny AI-nge is trained on . Additional data will be scrapped from [Basketball Reference](https://www.basketball-reference.com/).
 
 Danny-AInge
-## [ESPN Fantasy Basketball](https://www.espn.com/fantasy/mens-basketball/)
-In ESPN Fantasy Basketball, 4-20 people compete to manage their own NBA rosters where real life NBA games impact the outcome of the fantasy basketball league. Although you may draft players from different teams, there are limitations to make the game more interesting. 
+## [Yahoo Fantasy Basketball](https://basketball.fantasysports.yahoo.com/)
+In Yahoo Fantasy Basketball, 2-20 people compete to manage their own NBA rosters where real life NBA games impact the outcome of the fantasy basketball league. Although you may draft players from different teams, there are limitations to make the game more interesting. 
 
 Each starting roster is limited to one player for each NBA position, 2 flex slots called guard(PG,SG) and forward(SF,PF) and three additional UTL slots that can slot in players despite their position. Three additional spots are available for players on the bench. In case of player injury, the injured player may be moved to the IR(Injury reserves) and another player can be added to the roster until the injured player is healthy and gets removed from the IR. Stats earned by bench players and IR players will not be counted. 
 
@@ -38,14 +38,16 @@ Danny AInge will initially have its features implemented for Head-to-head: Each 
 Machine learning algorithms will be used to predict the stats of your team's players, the opposing team's players, and the top 20 available player's statistics. 
 
 # Statistics Tracked
-- FG%(Field Goal %) 
-- FT%(Free Throw %) 
-- 3PM(Three Pointers Made)
-- REB(Rebounds)
-- AST(Assists)
-- STL(Steals)
-- BLK(Blocks)
-- PTS(Points)
+- FG% (Field Goal %) 
+- FT% (Free Throw %) 
+- 3PTM (Three Pointers Made)
+- PTS (Points)
+- REB (Rebounds)
+- AST (Assists)
+- STL (Steals)
+- BLK (Blocks)
+- TO (Turnovers)
+
 
 Suggestions for your roster will be made, including players to dropp and add, and which players to start on your roster.
 
