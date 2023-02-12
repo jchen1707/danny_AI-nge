@@ -1,8 +1,8 @@
 ### Danny-AInge
-Legendary NBA GM powered by machine learning! Predicts NBA stats and manages your ESPN Fantasy Basketball team.
+Legendary NBA GM powered by machine learning! Predicts NBA stats and manages your Yahoo Fantasy Basketball team.
 
 # Overview 
-Danny AI-nge is trained on 64,000+ NBA games worth of data from Wyatt Walsh's [NBA Database](https://www.kaggle.com/datasets/wyattowalsh/basketball). Additional data will be scrapped from [Basketball Reference](https://www.basketball-reference.com/) as the database has stopped updates after 2021-05-16. 
+Danny AI-nge is trained on . Additional data will be scrapped from [Basketball Reference](https://www.basketball-reference.com/).
 
 Danny-AInge
 ## [ESPN Fantasy Basketball](https://www.espn.com/fantasy/mens-basketball/)
@@ -50,14 +50,19 @@ Machine learning algorithms will be used to predict the stats of your team's pla
 Suggestions for your roster will be made, including players to dropp and add, and which players to start on your roster.
 
 ## Stack
-- Python
+
+# Backend
+- Node JS
 - SQLite
 - Tensorflow
 - GraphQL
+- Express JS
+
+
 - TypeScript
 - NextJS
 - TailwindCSS
-- DaisyUI
+- SASS
 
 ## Demo
 WIP 

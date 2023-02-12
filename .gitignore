@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# Build artifacts
+dist
+build
+
+# TensorFlow models
+data-processing-service/models/tensorflow/*.h5
+data-processing-service/models/tensorflow/*.json
+
+# Uploaded files
+public/uploads
+
+# Environment variables
+.env
+
+# TypeScript compiled files
+*.js
+*.d.ts
+*.map
+
+# Next.js build files
+.next
+
+# Apollo Client cache
+.apollo.local.ts
+
+# TypeScript build files
+lib
+
+# vscode
+.vscode

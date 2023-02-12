@@ -1,36 +1,45 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
 # testing
-/coverage
-
-# next.js
-/.next/
-/out/
+coverage/
 
 # production
-/build
+dist/
+
+# production
+dist/
 
 # misc
 .DS_Store
-*.pem
-
-# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
 
-# local env files
-.env*.local
+# logs
+*.log
 
-# vercel
-.vercel
+# databases
+*.sqlite
+*.sqlite3
+*.db
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# environment variables
+.env
+.env.*
+
+# next.js build artifacts
+.next/
+
+# apollo
+.apollo/
+
+# SASS and Tailwind CSS config files
+frontend/tailwind.config.js
+frontend/postcss.config.js
+frontend/next.config.js
+
+# tensorflow.js model files
+backend/data-processing-service/models/tensorflow/models.ts
+backend/prediction-service/models/tensorflow/models.ts
+
+# raw and processed data files
+backend/data-processing-service/data/raw/
+backend/data-processing-service/data/processed/
