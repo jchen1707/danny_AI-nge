@@ -2,7 +2,7 @@
 Legendary NBA GM powered by machine learning! Predicts NBA stats and manages your Yahoo Fantasy Basketball team.
 
 # Overview 
-Danny AI-nge is trained on Paul Rossotti's [Enhanced Box Score and Standings (2012-2018)](https://www.kaggle.com/datasets/pablote/nba-enhanced-stats) on Kaggle. Additional data covering the 2018-2022 season will be scrapped from [Basketball Reference](https://www.basketball-reference.com/). The 2021-2022 season will be used as the validation set.
+Danny AI-nge is trained on data scrapped from [Basketball Reference](https://www.basketball-reference.com/). Statistics of interest include player advanced stats, per game stats and team advanced stats by season. The 2021-2022 season will be used as the validation set.
 
 Danny-AInge
 ## [Yahoo Fantasy Basketball](https://basketball.fantasysports.yahoo.com/)
@@ -77,17 +77,6 @@ Suggestions for your roster will be made, including players to drop and add, and
 Additional graphs and dashboards will be added for better visualization to help users understand the model's analytics. 
 
 # Predicted Stats
-- FG% (Field Goal %) 
-- FT% (Free Throw %) 
-- 3PTM (Three Pointers Made)
-- PTS (Points)
-- REB (Rebounds)
-- AST (Assists)
-- STL (Steals)
-- BLK (Blocks)
-- TO (Turnovers)
-
-# Stats for Training
 - FG% (Field Goal %) 
 - FT% (Free Throw %) 
 - 3PTM (Three Pointers Made)
