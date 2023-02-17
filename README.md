@@ -2,7 +2,7 @@
 Legendary NBA GM powered by machine learning! Predicts NBA stats and manages your Yahoo Fantasy Basketball team.
 
 # Overview 
-Danny AI-nge is trained on data scrapped from [Basketball Reference](https://www.basketball-reference.com/). Statistics of interest include player advanced stats, per game stats and team advanced stats by season. The 2021-2022 season will be used as the validation set.
+Danny AI-nge is trained on data scrapped from the [NBA's offical stats website](https://www.nba.com/stats) using [nba_api](https://github.com/swar/nba_api) and [balldontlie API](https://app.balldontlie.io/). Statistics of interest include player advanced stats, per game stats and team advanced stats by season. The 2021-2022 season will be used as the validation set.
 
 Danny-AInge
 ## [Yahoo Fantasy Basketball](https://basketball.fantasysports.yahoo.com/)
