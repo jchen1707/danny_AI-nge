@@ -68,7 +68,7 @@ Highest point total at the end of the year wins the league championship.
 ## Features
 Danny AInge will use the Yahoo API to securely access your team and automate changes and roster moves with the press of a button. Initially,
 
-![screenshot2](assets/h2h_screenshot.PNG)
+![screenshot2](assets/h2h-screenshot.PNG)
 
 Machine learning algorithms will be used to predict the stats of your team's players, the opposing team's players, and the top 20 available player's statistics. 
 
