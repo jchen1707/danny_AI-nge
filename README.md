@@ -66,7 +66,7 @@ Your points accumulate throughout the season in your team's total.
 Highest point total at the end of the year wins the league championship.
 
 ## Features
-Danny AInge will use the Yahoo API to securely access your team and automate changes and roster moves with the press of a button. Initially,
+Danny AInge will use the Yahoo API to securely access your team and automate changes and roster moves with the press of a button. The initial scope of the project will only optimize for head to head game modes.
 
 ![screenshot2](assets/h2h-screenshot.PNG)
 
