@@ -14,6 +14,9 @@ build
 data-processing-service/models/tensorflow/*.h5
 data-processing-service/models/tensorflow/*.json
 
+#Yahooo Key
+.env
+
 # Uploaded files
 public/uploads
 

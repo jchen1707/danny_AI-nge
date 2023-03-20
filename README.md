@@ -6,6 +6,122 @@ Legendary NBA GM powered by machine learning! Predicts NBA stats and manages you
 
 Danny AI-nge is trained on data scrapped from the [NBA's offical stats website](https://www.nba.com/stats) using [nba_api](https://github.com/swar/nba_api). Statistics of interest include player advanced stats, per game stats and team advanced stats by season. The 2021-2022 season will be used as the validation set.
 
+## Features
+
+Danny AInge will use the Yahoo API to securely access your team and automate changes and roster moves with the press of a button. The initial scope of the project will only optimize for head to head game modes.
+
+![screenshot2](assets/h2h-screenshot.PNG)
+
+Machine learning algorithms will be used to predict the stats of your team's players, the opposing team's players, and the top 20 available player's statistics.
+
+Suggestions for your roster will be made, including players to drop and add, and which players to start on your roster.
+
+Additional graphs and dashboards will be added for better visualization to help users understand the model's analytics.
+
+### Predicted Stats
+
+- FG% (Field Goal %)
+- FT% (Free Throw %)
+- 3PTM (Three Pointers Made)
+- PTS (Points)
+- REB (Rebounds)
+- AST (Assists)
+- STL (Steals)
+- BLK (Blocks)
+- TO (Turnovers)
+
+## Model Input Parameters
+
+### Individual Player Stats From 10 Most Recent Games
+
+- FG% (Field Goal %)
+- FT% (Free Throw %)
+- 3PTM (Three Pointers Made)
+- PTS (Points)
+- REB (Rebounds)
+- AST (Assists)
+- STL (Steals)
+- BLK (Blocks)
+- TO (Turnovers)
+- MIN (Minutes Played)
+
+### Individual Season/Previous Season Advanced Stats
+
+- PER (Player Efficiency Rating)
+- WS (Win Shares)
+- BPM (Box Plus/Minus)
+- VORP (Value Over Replacement Player)
+- USG% (Usage Percentage)
+- TS% (True Shooting Percentage)
+- OWS (Offensive Win Shares)
+- DWS (Defensive Win Shares)
+- OBPM (Offensive Box Plus/Minus)
+- DBPM (Defensive Box Plus/Minus)
+- FTr (Free Throw Attempt Rate)
+- 3PAr (Three Point Attempt Rate)
+- ORB% (Offensive Rebound Percentage)
+- DRB% (Defensive Rebound Percentage)
+- TRB% (Total Rebound Percentage)
+- AST% (Assist Percentage)
+- STL% (Steal Percentage)
+- BLK% (Block Percentage)
+- TOV% (Turnover Percentage)
+
+### Team Advanced Stats
+
+- Pace (Pace Factor)
+
+### Opposing Team Advanced Stats
+
+- Pace (Pace Factor)
+- ORtg (Offensive Rating)
+
+### Home/Away
+
+- 0 = Away
+- 1 = Home
+
+### Injuries/Rest
+
+- Number of games missed due to injury
+- Time since injury (days)
+- Severity of injury
+- Injury Type
+- Back to back indicator(0 = no, 1 = yes)
+
+### Experience/Information
+
+- Player Age
+- Years in the NBA
+- Position
+- Height W/O Shoes
+- Height W/ Shoes
+- Weight
+- Wingspan
+- Hand Length
+- Hand Width
+- Standing Reach
+- Body Fat Percentage
+
+## Stack
+
+### Backend
+
+- Node JS (TypeScript)
+- SQLite
+- Tensorflow
+- GraphQL
+- Express JS
+- Yahoo Fantasy Sports API
+
+### Frontend
+
+- TypeScript
+- Apollo Client
+- NextJS
+- TailwindCSS
+- SASS
+
 ### [Yahoo Fantasy Basketball](https://basketball.fantasysports.yahoo.com/)
 
 In Yahoo Fantasy Basketball, 2-20 people compete to manage their own NBA rosters where real life NBA games impact the outcome of the fantasy basketball league. Although you may draft players from different teams, there are limitations to make the game more interesting.
@@ -71,49 +187,6 @@ Points reset at the start of a new Game Week.
 Active players earn points each time a tracked stat is achieved.
 Your points accumulate throughout the season in your team's total.
 Highest point total at the end of the year wins the league championship.
-
-## Features
-
-Danny AInge will use the Yahoo API to securely access your team and automate changes and roster moves with the press of a button. The initial scope of the project will only optimize for head to head game modes.
-
-![screenshot2](assets/h2h-screenshot.PNG)
-
-Machine learning algorithms will be used to predict the stats of your team's players, the opposing team's players, and the top 20 available player's statistics.
-
-Suggestions for your roster will be made, including players to drop and add, and which players to start on your roster.
-
-Additional graphs and dashboards will be added for better visualization to help users understand the model's analytics.
-
-### Predicted Stats
-
-- FG% (Field Goal %)
-- FT% (Free Throw %)
-- 3PTM (Three Pointers Made)
-- PTS (Points)
-- REB (Rebounds)
-- AST (Assists)
-- STL (Steals)
-- BLK (Blocks)
-- TO (Turnovers)
-
-## Stack
-
-### Backend
-
-- Node JS (TypeScript)
-- SQLite
-- Tensorflow
-- GraphQL
-- Express JS
-- Yahoo Fantasy Sports API
-
-### Frontend
-
-- TypeScript
-- Apollo Client
-- NextJS
-- TailwindCSS
-- SASS
 
 ## Demo
 
