@@ -70,11 +70,13 @@ Additional graphs and dashboards will be added for better visualization to help 
 ### Team Advanced Stats
 
 - Pace (Pace Factor)
+- ORtg (Offensive Rating)
 
 ### Opposing Team Advanced Stats
 
 - Pace (Pace Factor)
 - ORtg (Offensive Rating)
+- DRtg (Defensive Rating)
 
 ### Home/Away
 
