@@ -71,12 +71,17 @@ Additional graphs and dashboards will be added for better visualization to help 
 
 - Pace (Pace Factor)
 - ORtg (Offensive Rating)
+- DRtg (Defensive Rating)
+- Poss (Possessions)
+- AST% (Assist Percentage)
 
 ### Opposing Team Advanced Stats
 
 - Pace (Pace Factor)
 - ORtg (Offensive Rating)
 - DRtg (Defensive Rating)
+- Poss (Possessions)
+- AST% (Assist Percentage)
 
 ### Home/Away
 
@@ -115,6 +120,7 @@ Additional graphs and dashboards will be added for better visualization to help 
 - GraphQL
 - Express JS
 - Yahoo Fantasy Sports API
+- Consul
 
 ### Frontend
 

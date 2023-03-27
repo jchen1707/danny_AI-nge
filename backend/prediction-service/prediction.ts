@@ -1,4 +1,4 @@
-import { loadModel } from './tensorflow/tensorflow';
+import { loadModel } from './models/tensorflow';
 import * as tf from '@tensorflow/tfjs';
 
 async function makePrediction(weeklyMatchupData: any) {

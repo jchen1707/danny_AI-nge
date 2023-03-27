@@ -1,7 +1,7 @@
 import express from 'express';
 import { graphqlHTTP } from 'express-graphql';
-import schema from '../graphql-server/schema';
-import auth from '../api-service/controllers/apis/auth';
+import schema from '../../backend/graphql-server/schema';
+import auth from '../../backend/api-service/controllers/apis/auth';
 
 
 const app = express();

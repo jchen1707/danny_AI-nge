@@ -1,22 +1,20 @@
 import express from 'express';
 import cors from 'cors';
-import { ApolloServer } from 'apollo-server-express';
-import { typeDefs, resolvers } from '../../frontend/server/graphql'; 
+import { getYahooData, updateRoster } from './controllers/apis/yahoo';
 import { getOptimizedLineup } from './controllers/prediction';
 
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 
-
+// Middleware
 app.use(cors());
-app.use(express.json());
 
-app.get('/predictions/optimized-lineup', getOptimizedLineup);
+// Routes
+app.get('/yahoo-data', getYahooData);
+app.post('/update-roster', updateRoster);
+app.get('/optimized-lineup', getOptimizedLineup);
 
-const apolloServer = new ApolloServer({ typeDefs, resolvers });
-apolloServer.applyMiddleware({ app });
-
+// Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-  console.log(`GraphQL server is running on http://localhost:${PORT}${apolloServer.graphqlPath}`);
+  console.log(`API Service running on http://localhost:${PORT}`);
 });
